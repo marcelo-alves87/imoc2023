@@ -95,10 +95,22 @@ p.has-drop-cap:not(:focus):first-letter {
 	margin: 11px 14px 0 -10px;
 }
 
+.wp-block-image img {
+	max-width: none !important;
+	width: auto !important;
+}
+
 /* Image */
 .wp-block-image {
 	margin-bottom: 1.750em;
 }
+
+.wp-block-image, .size-full {
+	height: auto;
+	overflow-x: scroll;
+}
+
+.wp-block-archives-list
 
 .wp-block-image figure {
 	margin-bottom: 0;
