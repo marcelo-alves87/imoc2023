@@ -145,7 +145,7 @@ p.has-drop-cap:not(:focus):first-letter {
 .wp-block-quote,
 .wp-block-quote.is-large,
 .wp-block-quote.is-style-large {
-	margin: 0 0 1.em;
+	margin: 0 0 1.em;
 	padding: 0 0 0 1.166666666666667em;
 }
 
@@ -399,6 +399,7 @@ p.has-drop-cap:not(:focus):first-letter {
 	border-top: 0;
 	padding: 0.7777777777777778em 1.555555555555556em;
 	border-color: #eee;
+	text-align: center;
 }
 
 .wp-block-table.is-style-stripes {

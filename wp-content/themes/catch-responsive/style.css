@@ -375,14 +375,13 @@ big {
 3. Elements
 --------------------------------------------------------------*/
 body {
-	background-color: rgb(107,104,104) !important;
+	background-color: whitesmoke !important;
 }
 
 .site {
 	margin: 0 auto;
-	width: 1200px;
-    background-color: white !important;
-	box-shadow: 2px 2px 10px 9px #888888;
+	
+	
 }
 
 a {
@@ -438,7 +437,10 @@ img {
 	/* height: auto; /* Make sure images are scaled correctly. */
 	/*max-width: 100%; /* Adhere to container width. */ 
 	width: -webkit-fill-available;
-	
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+	height: auto;
 }
 
 figure {
@@ -720,7 +722,7 @@ blockquote:before {
 4. Padding/Margin
 --------------------------------------------------------------*/
 .wrapper {
-	/* padding: 0 20px; */
+	padding: 0 20px;
 }
 
 #masthead {
